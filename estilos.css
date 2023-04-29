@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(221, 215, 215);
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(131, 131, 224); */
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    /* background-color: rgb(97, 129, 129); */
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(116, 48, 70);    */
+}
+.seccion1{
+    width: 70%;
+}
+.area{
+    width: 80%;
+    height: 70%;
+    display:block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 20px;
+}
+.btnEncriptar, .btnDesencriptar{
+    width: 25%;
+    height: 40px;
+}
+.contenedorBotones{
+   text-align: center; 
+   margin-top: 30px;
+}
+.seccion2{
+    width: 20%;
+    background-color: #ffff;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contenedorMuneco{
+    width: 100%;
+    height: 60%;
+    padding-top: 150px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.contenedor-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.contenedorParrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.contenedorResultado{
+    width: 100%;
+    height: 70%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.contenedorCopiar{
+    width: 100%;
+    height: 20%;
+}
+
+.btnCopiar{
+    width: 40%;
+    height: 40px;
+    display: block;
+    margin: auto;
+
+}
+
+footer{
+    width: 100%;
+    height: 4.8%;
+    /* background-color: rgb(150, 89, 89); */
+    text-align: center;
+}
+
+.ocultar{
+    display: none;
+}
